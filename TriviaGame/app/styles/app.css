@@ -1,0 +1,32 @@
+body {
+    padding-top: 20px;
+  }
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.alert-success{
+  text-align: center;
+  background-color: lightgrey;
+  border-color: black;
+  color: black;
+}
+.game-form-area{
+  display: flex;
+  text-align:center;
+  justify-content: center;
+}
+
+.answerBtn{
+  margin: 0 auto;
+  width: 150px;
+}
+
+.rank-area{
+  border: 1px solid black;
+}

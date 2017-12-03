@@ -1,0 +1,34 @@
+
+<div>
+	<div>
+		<span>{{triviaQuestion}}</span>
+	</div>
+	<div>
+		<span>Current Score: </span><span>{{userScore}}</span>
+	</div>
+	<div>
+		<span>Current Tries: </span><span>{{currentTries}}</span>
+	</div>
+	<div id="question">
+		The question should go here
+	</div>
+	<div>
+		<button class="btn btn-primary" id='startGame' {{action "startGame"}} hidden={{startDisabled}}>Start Game</button>
+		<!--<button class="btn btn-primary" {{action "submitAnswer"}} hidden={{submitDisabled}}>Submit Answer</button>!-->
+	</div>
+	<div class="grid">
+		<button id='answer1' class="btn btn-primary" style="display:none" {{action "submitAnswer"}}>Answer 1</button>
+		<button id='answer2' class="btn btn-primary" style="display:none" hidden=true {{action "submitAnswer"}}>Answer 2</button>
+		<button id='answer3' class="btn btn-primary" style="display:none" hidden=true {{action "submitAnswer"}}>Answer 3</button>
+		<button id='answer4' class="btn btn-primary" style="display:none" hidden=true {{action "submitAnswer"}}>Answer 4</button>
+	</div>
+	<div>
+
+	</div>
+	<div>
+
+	</div>
+	<div>
+
+	</div>
+</div>
